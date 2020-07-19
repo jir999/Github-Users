@@ -1,0 +1,38 @@
+#d {
+    display: grid;
+    width: 100%;
+    justify-content: space-around;
+    grid-template-columns: repeat(auto-fill, 280px);
+}
+
+.user {
+    height: 350px;
+    width: 250;
+    width: 250px;
+    margin: 15px;
+    /* margin-left: 70px; */
+    /* border-radius: 50%; */
+    /* display: inline-block; */
+    transition: height 0.3s, width 0.3s, border-radius 0.3s;
+}
+
+#deleteButton {
+    margin-left: 50px;
+    width: 100px;
+    height: 50px;
+}
+
+
+div.user img {
+    height: 250px;
+    width: 250px;
+    /* margin-left: 70px; */
+    border-radius: 50%;
+    /* display: inline-block; */
+    transition: height 0.3s, width 0.3s, border-radius 0.3s;
+}
+
+.mainTitle{
+    text-align: center;
+}
+
